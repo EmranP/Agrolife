@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const OPEN_WEATHER_MAP_API_KEY = 'cc47515b4a535dba1b5192244b4ca00f' // Replace with your API key
+const OPEN_WEATHER_MAP_API_KEY = process.env.WEATHER_MAP_API_KEY // Replace with your API key
 
 // Function to fetch climate data using OpenWeatherMap API
 export const fetchClimateData = async (
