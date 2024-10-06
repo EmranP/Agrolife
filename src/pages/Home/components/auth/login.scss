@@ -1,0 +1,89 @@
+.main__section {
+	background: url("../../assets/img/main/01.png") center / cover no-repeat;
+	padding: 129px 0 159px 0;
+	h1 {
+		margin-bottom: 45px;
+		font-weight: 700;
+		font-size: 45px;
+		font-variant: all-small-caps;
+		text-align: center;
+		color: #fff;
+	}
+}
+.card {
+	&__login {
+		max-width: 658px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 55px 120px;
+		border-radius: 27px;
+		background: linear-gradient(135deg, rgba(153, 238, 153, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+		h1 {
+			font-weight: 300;
+			font-size: 30px;
+			color: #fff;
+		}
+	}
+	&__form {
+		h2 {
+			text-align: center;
+			font-weight: 300;
+			font-size: 15px;
+			color: #fff;
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.form__action {
+	margin: 0 auto;
+	color: #fff;
+	text-align: start;
+	label {
+		display: block;
+		font-weight: 400;
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	input {
+		display: block;
+		width: 100%;
+		border-radius: 7px;
+		border: 1px solid #f26e21;
+		padding: 16px 20px 16px 50px;
+		backdrop-filter: blur(60px);
+		background: linear-gradient(135deg, rgba(153, 238, 153, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+		opacity: 0.5;
+		color: #fff;
+		margin-bottom: 20px;
+		&::placeholder {
+			font-weight: 300;
+			font-size: 15px;
+			color: #fff;
+		}
+	}
+	img {
+		position: absolute;
+		// border-right: 0.6px solid #b9b9b9;
+		// padding-right: 2%;
+		top: 31%;
+		left: 2%;
+	}
+	button {
+		width: 100%;
+		border-radius: 7px;
+		text-align: center;
+		padding: 16px 0;
+		background-color: #f26e21;
+		font-weight: 600;
+		font-size: 15px;
+		color: #000;
+		margin-bottom: 20px;
+	}
+}
+
+.form__input {
+	position: relative;
+}

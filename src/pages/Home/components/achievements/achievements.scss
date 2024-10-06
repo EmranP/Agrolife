@@ -1,0 +1,30 @@
+.section__achievement {
+	margin: -70px 0 130px 0;
+}
+
+.card__achievement {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 201px));
+	place-content: center;
+	place-items: center;
+	gap: 130px;
+	padding: 29px 0;
+	margin-bottom: 78px;
+	grid-template-rows: auto;
+	background-color: #025002;
+	border-radius: 7px;
+}
+
+.achievement__item {
+	padding: 16px 69px;
+	background-color: #fff;
+	border-radius: 7px;
+	text-align: center;
+	h1 {
+		font-weight: 700;
+		font-size: 30px;
+		letter-spacing: 0.03em;
+		margin: 10px 0;
+		color: #333;
+	}
+}

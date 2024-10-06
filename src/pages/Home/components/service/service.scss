@@ -1,0 +1,27 @@
+.section__service {
+	background: url("../../assets/img/services/bg01.png") center / cover no-repeat;
+}
+// .bg__service {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	object-fit: cover;
+// }
+.service {
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		padding: 71px 0 173px 0;
+	}
+	&__assets {
+		position: relative;
+		img {
+			&:last-child {
+				position: absolute;
+				bottom: -40px;
+				right: -40px;
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.section__categories {
+	background: url("../../assets/img/categories/bg.png") center / cover no-repeat;
+}
+
+.title__categories {
+	h2 {
+		font-weight: 400;
+		font-size: 20px;
+		text-transform: capitalize;
+		text-align: center;
+		margin-bottom: 8px;
+		color: #000;
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 48px;
+		text-transform: capitalize;
+		text-align: center;
+		margin-bottom: 80px;
+		color: #000;
+	}
+}
+
+.categories__row {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-rows: auto;
+	gap: 72px;
+}
+.card__categories {
+	text-align: center;
+	padding: 17px 8px 28px 8px;
+	background-color: #c4c4c4;
+	img {
+		width: 100%;
+		margin-bottom: 17px;
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 30px;
+		text-transform: capitalize;
+		text-align: center;
+		color: #000;
+	}
+}
